@@ -1,0 +1,21 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-divider></mat-divider>
+      <mat-card-title>{{ data.titulo }}</mat-card-title>
+      <mat-divider>Melhores Preços!!!!</mat-divider>
+      <mat-card-subtitle>{{ data.subtitulo}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <b>
+        {{ data.descricao }}
+      </b>
+    </mat-card-content>
+    <img mat-card-image class src={{data.imagem}} alt="">
+    <mat-card-actions>
+      <button mat-flat-button color="accent">Comprar</button>
+      <br>
+      <button mat-flat-button color="primary">Visitar site</button>
+
+    </mat-card-actions>
+</mat-card>
